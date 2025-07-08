@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body id="light">
+    <button class="solucionador" aria-hidden="true" id="solucionador5">Solucionar1</button>
+    <button class="solucionador" aria-hidden="true" id="solucionador6">Solucionar2</button>
+
+    <header class="commonHeader">
+        <nav>
+            <span class="title"> Natural Coffe</span>
+            <ul>
+                <li><a id="homeLink" href="./index.html">Home</a></li>
+                <li><a href="">Contactanos</a></li>
+                <li><a href="./sign-in.html">Sign In</a></li>
+            </ul>
+            <span id="lightMode" role="switch" aria-checked="false" tabindex="0"><i class="fa-solid fa-circle-half-stroke"></i></span>
+        </nav>
+        <h1>Registro</h1>
+        <h2>Prepárese para unirse a nuestra comunidad</h2>
+
+    </header>
+    <main>
+        <section>
+            <h3>Formulario</h3>
+            <form id="formulario">
+                <input type="text" id="nombre" placeholder="Nombre Completo">
+                <input type="text" id="direccion" placeholder="Dirección">
+                <input type="email" id="email" placeholder="Email">
+                <p>Cuál prefiere?</p>
+                <div>
+                    
+                    <input type="radio" name="gustos" value="cafe" id="cafe">
+                    <label for="cafe">Café</label>
+                    <input type="radio" name="gustos" value="te" id="te">
+                    <label for="te">Té</label>
+                </div>
+                <input type="button" aria-controls="comprobado" id="comprobar" value="Enviar">
+            </form>
+        </section>
+
+
+    </main>
+    <footer></footer>
+</body>
+<script src="assets/js/functions.js"></script>
+<script src="https://kit.fontawesome.com/c109fc5a43.js" crossorigin="anonymous"></script>
+
+</html>
